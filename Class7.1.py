@@ -1,12 +1,12 @@
 def main():
     print("This program calculates the class standing from the number of credits earned")
     x=float(input("How many credits do you have? "))
-    if x<7:
+    if x<=6:
         print("You are a Freshman!")
-    elif x<=15 or x is 7:
+    elif x<=15:
         print("You are a Sophomore!")
-    elif x<=25 or x is 16:
+    elif x<=25:
         print("You are a Junior!")
-    elif x>=26:
+    else:
         print("You are a Senior!")
 main()
